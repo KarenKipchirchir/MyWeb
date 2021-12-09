@@ -1,9 +1,15 @@
 # Create the flask object
+
 from flask import *
 
 from flask import Flask, render_template, session, flash, redirect, url_for
 
 app = Flask(__name__)  # __name__ means main
+
+import pymysql
+
+connection = pymysql.connect(host='localhost', user='root', password='',
+                             database='mywebsite')
 
 
 @app.route('/')
@@ -18,11 +24,8 @@ def projects():
 
 @app.route('/aboutme')
 def aboutme():
-    return render_template('aboutme.html')
+        return render_template('aboutme.html')
 
-@app.route('/contactme')
-def contact():
-    return render_template('contactme.html')
 
 
 # check

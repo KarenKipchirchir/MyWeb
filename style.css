@@ -4,7 +4,7 @@
     color:white;
 }
 .footer{
-        background-color: ;
+        text-align:center;
 }
 .navbar{
 	padding-left: 2%;
@@ -24,6 +24,9 @@
 .body2{
     font-family:Hahmlet;
     color:white;
+    text-align:center;
+    margin-right:100px;
+    padding-right:20px;
 }
 .logo{
      font-family:Lora;
@@ -41,16 +44,15 @@
 .icons{
     padding-top:20px;
     color: #ffc7ac;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
 }
 #logo-img{
     border-radius: 30%;
     width:400px;
     height:auto;
-    display:block;
-    position: relative;
+    position: flex;
+    margin-left:50px;
+
 }
 #logo-img2{
     border-radius: 30%;
@@ -61,10 +63,12 @@
     left:15%;
     top:20%;
 }
-@media screen and (max-width: 480px) {
-    logo-img {
-         width: 250px;
-    }
+.socials{
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 @media screen and (max-width: 480px) {
     logo-img {
@@ -112,6 +116,39 @@
 }
 .title{
     color:#ffc7ac;
+}
+.textarea{
+  width: 80%;
+  height: 150px;
+  resize: none;
 
-
+}
+.thanks{
+    font-family:Hahmlet;
+}
+.touch{
+    padding:5px;
+}
+.navbar-toggler-icon{
+    color:white;
+}
+.padding{
+    padding:20px;
+}
+.body3{
+    font-family:Hahmlet;
+    color:white;
+    text-align:center;
+    margin-right:10px;
+    padding-right:20px;
+}
+.me{
+    text-align:left;
+    padding-left:15px;
+}
+.projects{
+text-align:center;
+}
+.info{
+    font-family:Hahmlet;
 }

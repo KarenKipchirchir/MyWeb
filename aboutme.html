@@ -23,7 +23,9 @@
               </div>
               <a class="navbar-brand" href="/"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                </span>
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,24 +58,25 @@
 
             <div class="col-md-4">
                 <img src="static/logo.jpg" alt="Just Jerono's logo" class="img-fluid" id="logo-img2" >
-
+                <br>
             </div>
 
-
+            <br><br>
 
             <div class="col-md-8" >
-                <div class="body2">
-                    <br>
+                <div class="body3">
 
+                    <br>
                     <h3 class="title">About Me</h3> <br>
 
-                    <h4>
+                    <h4 class="me">
                         My name is K. Jerono Karen .
-                        <br> I'm a Mobile and Front End Developer student based in Nairobi,Kenya.
 
+                        <br><br> I'm currently a student based in Nairobi,Kenya.
 
                         <br> <br>I love programming and all things tech❤️.
-                        <br> I'm passionate about building solutions that would make a positive impact in other's lives.
+
+                        <br><br> I'm passionate about building positive impact solutions.
 
                         <br><br>In my free time,I love to take on new adventures and learning opportunites.
                         <br>
@@ -90,8 +93,8 @@
 
     </section>
 
-<br><br><br><br>
-
+<br><br><br>
+<div class="touch>"
  <div class="row">
 
 
@@ -106,52 +109,63 @@
                      I'm currently open to freelance projects.
                   </p>
                 <br>
+                                <div class="social-icons2">
+
+                                              <a href="https://twitter.com/just_jerono">
+                                                    <i class="fab fa-twitter fa-2x"></i>
+                                              </a>
+
+                                              <a href="https://www.instagram.com/just_jerono/">
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                              </a>
+
+                                              <a href="#">
+                                                    <i class="fab fa-linkedin-in fa-2x"></i>
+                                              </a>
+
+                 </div>
+                <br>
                   <div class="info">
                     <div class="information">
-                      <i class="fa fa-map-marker" aria-hidden="true"></i>
-                      <p>Haven Court,Westlands,Nairobi</p>
+                      <i class="fa fa-map-marker" aria-hidden="true"><b class="info"> Haven Court,Westlands,Nairobi</b></i>
+
                     </div>
+                      <br>
                     <div class="information">
-                      <i class="fas fa-globe"></i>
-                      <p>www.justjerono.co.ke</p>
+                      <i class="fas fa-globe"><b class="info"> www.justjerono.co.ke</b></i>
+
                     </div>
+                      <br>
                     <div class="information">
-                      <i class="fas fa-phone"></i>
-                      <p>+2547 90 128 957</p>
+                      <i class="fas fa-phone"><b class="info"> +2547 90 128 957</b></i>
+
                     </div>
+                      <br>
                   </div>
 
+
+
+
             </div>
-
+            <br><br>
         <div class="col-md-6" >
-               <form action="index.html" autocomplete="off">
-                    <h3 class="title">Leave A Message</h3>
+               <form action="https://formsubmit.co/justjerono@gmail.com" method="POST" autocomplete="off">
+                   <h3 class="title">Leave A Message</h3>
                    <br>
 
-                    <div class="">
-                      <input placeholder="Name" type="text" name="name" class="input" />
+                   <input placeholder="Email" type="email" name="email" class="input" required "/>
+                   <br> <br>
 
-
+                    <div class="input" >
+                      <textarea placeholder="Your Message" name="message"  class="textarea" required></textarea>
                     </div>
                    <br>
-
-                    <div class="">
-                      <input placeholder="Email" type="email" name="email" class="input" />
-
-
-                    </div>
-                   <br>
-
-                    <div class=" textarea">
-                      <textarea placeholder="Your Message" name="message" class="input" style="resize: none;"></textarea>
-
-
-                    </div>
-                   <br>
+                   
+                    <input type="hidden" name="_next" value="static/thanks.html">
 
                     <div>
 
-                        <button class="btn"><b>Send Message</b></button>
+                        <button type="submit" class="btn"><b>Send Message</b></button>
                     </div>
                    <br>
 
@@ -162,19 +176,22 @@
 
     </section>
     </div>
+ </div>
 
 
 <!-- Footer Section  -->
-<section  class="single">
+<div class="d-none d-lg-block">
+    <section  class="single">
+        <footer class="footer" class="row" >
+                <div class="col-md-12 text-center text-white">
+                  <b>Copyright &copy; 2021. All Rights Reserved</b>
+                  <br>
+                  <i>Developed by <a href="https://www.justjerono.co.ke" class="text-white-100"><b>Jerono K</b></a></i>
+                </div>
+        </footer>
+    </section>
+</div>
 
-	<footer class="footer" class="row" >
-            <div class="col-md-12 text-center text-white">
-              <b>Copyright &copy; 2021. All Rights Reserved</b>
-              <br>
-              <i>Developed by <a href="https://www.justjerono.co.ke" class="text-white-100"><b>Jerono K</b></a></i>
-            </div>
-    </footer>
-</section>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
